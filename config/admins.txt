@@ -7,3 +7,5 @@
 Blueturbo47 = Host
 SaltyPenguin25 = Host
 sgtbudge = Host
+LordSaladin = Host
+park246824 = Host
