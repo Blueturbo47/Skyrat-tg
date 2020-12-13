@@ -52,6 +52,207 @@
 		-->
 		<div class="commit sansserif">
 
+			<h2 class="date">13 December 2020</h2>
+			<h3 class="author">SkyratBot updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="bugfix">Bluespace anomaly cores obtained from ice demons are now raw cores. No more BoH farms!</li>
+				<li class="bugfix">Space Ninja's suit cooldown now works properly.</li>
+				<li class="bugfix">Space Ninja no longer suffers from being slower than he's supposed to be occasionally.</li>
+				<li class="bugfix">layer manifolds are now saner</li>
+			</ul>
+
+			<h2 class="date">12 December 2020</h2>
+			<h3 class="author">Azarak updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="bugfix">fixed nanite slurry</li>
+			</ul>
+			<h3 class="author">Harimoto updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="spellcheck">fixed a spelling error with a heretic spell message</li>
+			</ul>
+			<h3 class="author">Joe Berry updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="tweak">Planetary turfs now act more like they are on a planet and return to a normal level much faster.</li>
+			</ul>
+			<h3 class="author">Owai-Seek updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="tweak">Food crafting now takes 5 deciseconds, instead of 30.</li>
+				<li class="rscadd">Meat Product can be produced in the biogen.</li>
+			</ul>
+			<h3 class="author">Qustinnus updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="code_imp">Lavaland is no longer generated in broken diagonals, instead utilizing  a map_generator datum.</li>
+				<li class="code_imp">Bunch of unused turf paths removed</li>
+				<li class="bugfix">Fixes lava spawning when you mine rocks</li>
+			</ul>
+			<h3 class="author">SkyratBot updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="tweak">Two new binds for targeting eyes and mouth, number pad 7 and number pad 9.</li>
+				<li class="balance">Civilian Bounty Cubes now pay out 30% of the value of the cube, up from 10%.</li>
+				<li class="balance">Cargo Crates are now worth 200 credits each. Cargo crate prices have seen some tweaks as well for more uncommonly ordered crates as well.</li>
+				<li class="bugfix">You can no longer cheat the bounty system by slapping a new price tag over a bounty cube.</li>
+				<li class="refactor">The values of cargo crates you can order are now scaled in terms of the value of cargo crates.</li>
+				<li class="rscdel">Ash walkers no longer know galactic common</li>
+				<li class="bugfix">Drying racks have feedback for dried things now</li>
+				<li class="tweak">Shoes get checked for whether they actually cover your feet for purposes of caltrops and footsteps</li>
+				<li class="admin">Added a smite option to build mode.</li>
+				<li class="tweak">More UI elements will now be displayed in a non-blurry font.</li>
+				<li class="code_imp">Points of interest now use an element.</li>
+				<li class="balance">Changed the size of the xray gun</li>
+				<li class="bugfix">Lizards will now be correctly disgusted by donuts.</li>
+				<li class="bugfix">Clothes now consume themselves properly.</li>
+				<li class="admin">There now exists an admin outfit, better than the debug outfit for messing with things. There is also now a box with every single stabilized slime extract.</li>
+				<li class="spellcheck">changed the description of painting frames to better explain how to remove paintings and whether the frame is persistent</li>
+			</ul>
+			<h3 class="author">Useroth updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="rscdel">Removed the transformation sting ability.</li>
+			</ul>
+
+			<h2 class="date">11 December 2020</h2>
+			<h3 class="author">Azarak updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="bugfix">space law books now properly show corporate regulations</li>
+			</ul>
+			<h3 class="author">KathrinBailey updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="rscadd">Secret plots to preserve Christmas cheer</li>
+			</ul>
+			<h3 class="author">Paxilmaniac, Maurukas and Cartographer-D updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="rscadd">Adds Kilostation</li>
+				<li class="rscdel">Removes Pubbystation</li>
+			</ul>
+			<h3 class="author">SkyratBot updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="bugfix">The NanoDrug vendor in Medbay is now property of the medical department and will handle payments correctly.</li>
+				<li class="bugfix">You can no longer recycle metalgen</li>
+				<li class="rscdel">removed atmos SM room</li>
+				<li class="rscadd">added atmos testing facility</li>
+				<li class="rscadd">added SM to replace the hole left by singulo/tesla engines</li>
+				<li class="tweak">Added the persistent photo gallery for distinguished employees to Metastation and Deltastation showrooms</li>
+			</ul>
+			<h3 class="author">Useroth updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="tweak">made the alien infestation event less likely</li>
+			</ul>
+			<h3 class="author">monster860 updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="tweak">You now lie down in the direction you are facing</li>
+			</ul>
+
+			<h2 class="date">10 December 2020</h2>
+			<h3 class="author">SkyratBot updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="tweak">only anchored windows call move_update_turf()</li>
+				<li class="tweak">singularities from stage 2 and over will unanchor windows</li>
+				<li class="balance">Vehicles no longer open firelocks when bumped into them.</li>
+				<li class="tweak">Acclimator will now idle when emptying, to prevent overcooking in laggy and sensitive situations</li>
+				<li class="bugfix">The roulette wheel now actually works and no longer just crashes every time you try to place a bet on a single.</li>
+				<li class="bugfix">jitteriness, melee attack animations and resting/standing up should no longer momentarily remove the floating movement type.</li>
+				<li class="refactor">projectiles now use a new hit detection system that doesn't rely on quirks in movement code to work, and is easier(?) to work with</li>
+				<li class="refactor">pass_flags_self now handles determining if something with specific pass_flags can cross something, by default.</li>
+				<li class="bugfix">piercing projectiles (see: penetrating snipers) work again</li>
+				<li class="tweak">projectile permutated/impacted list is reset on ricochets, meaning reflected projectiles can potentially hit something again if it pierced it the first time.</li>
+				<li class="bugfix">removes stray lightswitch from icebox mining base</li>
+			</ul>
+
+			<h2 class="date">09 December 2020</h2>
+			<h3 class="author">Azarak updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="tweak">echo was tweaked</li>
+			</ul>
+			<h3 class="author">Investigator77 updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="tweak">"Sniper Rifle" renamed to "AUS-107 anti-materiel rifle"</li>
+				<li class="tweak">"Syndicate Sniper Rifle" renamed to "'Caracal' anti-materiel rifle"</li>
+				<li class="tweak">"NT-ARG 'Boarder'" renamed to "ARG-63 infantry rifle"</li>
+				<li class="rscadd">Added "SA-107 anti-materiel rifle"</li>
+				<li class="rscadd">Added "MCRS-5B combat rifle", for SolFed.</li>
+				<li class="balance">Syndicate Sniper Rifle now has less recoil and half the firing delay of a normal sniper rifle.</li>
+				<li class="soundadd">New sniper rifle sound</li>
+				<li class="soundadd">New suppressed sniper rifle sound</li>
+			</ul>
+			<h3 class="author">SkyratBot updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="balance">ClF3 can no longer melt through walls.</li>
+				<li class="bugfix">Dynamic abductors should no longer be split up between two different ships.</li>
+				<li class="refactor">The singularity, tesla, Nar'Sie, and similar have been refactored to separate behavior.</li>
+				<li class="tweak">The alerts for singularities being loose are now handled by the singularity itself, meaning the icon will no longer be the containment field.</li>
+			</ul>
+			<h3 class="author">itseasytosee updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="bugfix">Jaunting nightmares should heal at a consistent rate weather they are moving or not</li>
+			</ul>
+
+			<h2 class="date">08 December 2020</h2>
+			<h3 class="author">Cornelius Bogfrollup Fitzgerald updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="imageadd">new jukebox sprites</li>
+			</ul>
+			<h3 class="author">Fikou updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="bugfix">Fixes hiero staff recall message not working</li>
+				<li class="balance">Champion's hardsuit has been reworked. spriteadd: fixes spears on suit storages not having icons</li>
+			</ul>
+			<h3 class="author">KathrinBailey updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="rscadd">Pools! Ask your local admin to spawn them, they're under water/overlay.</li>
+				<li class="rscadd">Dungeon stuff!</li>
+				<li class="rscadd">Hand drills now have the sprite they had just before rebase, you'll be  able to tell if you're in screw or wrench mode by looking at the sprite now!</li>
+			</ul>
+			<h3 class="author">Qustinnus updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="refactor">Refactors now keep an assoc list to keep track of how much specific do afters are running at once</li>
+			</ul>
+			<h3 class="author">Takiya updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="bugfix">Fixed securityborg Otie sprite pointing right when standing left</li>
+			</ul>
+			<h3 class="author">That REALLY Good Soda Flavor updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="bugfix">Holidays appearing on the nth day of the month like Thanksgiving will work now.</li>
+				<li class="tweak">Columbus day is now called Indigenous Peoples' Day.</li>
+			</ul>
+			<h3 class="author">Zenitheevee updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="tweak">Smugglers have decided to stuff caches a bit more.</li>
+				<li class="tweak">Smugglers have decided to venture into more lucrative caches.</li>
+				<li class="code_imp">Removes super call from with_tools variant of smuggler satchels.</li>
+			</ul>
+			<h3 class="author">thatREALLYgoodsodaflavor, StyleMistake, Qustinnus updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="rscadd">Implements sound environments into the game. Reverb time.</li>
+			</ul>
+
+			<h2 class="date">07 December 2020</h2>
+			<h3 class="author">Foxtrot (Funce) updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="bugfix">Borg rest hotkey has been fixed.</li>
+				<li class="bugfix">Dogborg rest style is now persistent until the next choosing of rest style.</li>
+				<li class="tweak">You no longer trip over borgs that are lying down.</li>
+				<li class="bugfix">Butt Slaps no longer double message the victim.</li>
+			</ul>
+			<h3 class="author">Gandalf2k15 updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="bugfix">You can now set the alert level to violet, orange and amber via any comms console.</li>
+				<li class="tweak">Gamma sound effect loops</li>
+				<li class="bugfix">Green security level now works</li>
+			</ul>
+			<h3 class="author">Ryll/Shaps updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="bugfix">Slimes will no longer treat people's names and sayverbs as orders</li>
+			</ul>
+			<h3 class="author">SkyratBot updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="bugfix">Fixed gasses spawning with no temperature</li>
+				<li class="bugfix">fixed fever and chills change range to be sensible</li>
+				<li class="rscadd">Empty supplypods can now be bought from your local express console!</li>
+				<li class="bugfix">Fixed an issue where Herald's mirror would look like a normal herald on being shot</li>
+				<li class="bugfix">Fixed an issue where Herald's mirror would gain the second set of projectiles at 50% health.</li>
+				<li class="bugfix">you can now shoot a guns with modified trigger guards as a snow golem</li>
+			</ul>
+
 			<h2 class="date">06 December 2020</h2>
 			<h3 class="author">Foxtrot (Funce) updated:</h3>
 			<ul class="changes bgimages16">
